@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Font.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Fps.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Gauge.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpRequest.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonRead.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Touch.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>SceneManage</Filter>
+    </ClCompile>
+    <ClCompile Include="Result.cpp">
+      <Filter>Scene\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Direction.cpp">
+      <Filter>Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Power.cpp">
+      <Filter>Scene\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CommonData.cpp">
+      <Filter>Scene\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranking.cpp">
+      <Filter>Scene\Ranking</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Font.hpp">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Fps.hpp">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Gauge.hpp">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpRequest.hpp">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonRead.hpp">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.hpp">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.hpp">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.hpp">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.hpp">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Touch.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.hpp">
+      <Filter>SceneManage</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.hpp">
+      <Filter>SceneManage</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.hpp">
+      <Filter>Scene\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.hpp">
+      <Filter>Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Direction.hpp">
+      <Filter>Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.hpp">
+      <Filter>Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Power.hpp">
+      <Filter>Scene\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonData.hpp">
+      <Filter>Scene\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Ranking.h">
+      <Filter>Scene\Ranking</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SceneManage">
+      <UniqueIdentifier>{e17b7568-decb-400d-9912-97e9f3fc256d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{978bd8fa-fc5f-4f10-be05-d0764bd28e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{664e9eb4-2a5b-4f7a-83c5-bef4be07ec4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Game">
+      <UniqueIdentifier>{c3f4ada2-5d9f-4e8a-b68c-99e221db54de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Title">
+      <UniqueIdentifier>{eb6e93b5-bf14-4e46-9d67-f8486425e180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Result">
+      <UniqueIdentifier>{5856d033-c82d-4910-b334-dc7a81c6863b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Common">
+      <UniqueIdentifier>{75eee6ad-0968-49ab-9181-6ff7146fd0aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Ranking">
+      <UniqueIdentifier>{73fb612d-5c91-40bf-8105-79040f0cc46b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
