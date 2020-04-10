@@ -2,7 +2,7 @@
 
 // DBに接続
 $mysql = mysqli_connect('localhost', 'root', '') or die(mysqli_error($mysql));
-mysqli_select_db($mysql, 'konami_kadai1') or die(mysqli_error($mysql));
+mysqli_select_db($mysql, 'homerungame') or die(mysqli_error($mysql));
 mysqli_query($mysql, 'SET NAMES UTF8') or die(mysqli_error($mysql));
 
 // スコアを登録
