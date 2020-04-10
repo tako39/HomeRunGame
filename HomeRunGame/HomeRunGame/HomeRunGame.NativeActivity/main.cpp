@@ -27,6 +27,5 @@ int android_main(void)
 	delete sceneManager;
 
 	DxLib_End();
-
 	return 0;
 }
